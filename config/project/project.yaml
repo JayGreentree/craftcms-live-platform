@@ -1,0 +1,80 @@
+dateModified: 1651732415
+email:
+  fromEmail: jay@jaygreentree.xyz
+  fromName: JayGreentree
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    6bb4ea66-bdde-4e67-a67e-09d66d1dd1b1: Homepage # Homepage
+    6e620cd6-2380-447f-8761-8d7c86a71a56: Common # Common
+    7b35c3bb-a8d0-4a44-86a5-e93a321a5dbd: Homepage # Homepage
+    81c2dcc1-a484-47d8-8c82-7a135bcdee50: JayGreentree # JayGreentree
+    0192e6bf-be1f-4228-a001-dd281e15d961: Homepage # Homepage
+    525082af-2b54-45bd-8bb6-20b24c7547ed: JayGreentree # JayGreentree
+    65350575-825b-4f3e-83cb-d1a5b48ead78: About # About
+    e4ea9285-9cb3-43dd-9896-1f1cd87e673f: live # live
+    ece1925c-dfe5-4606-be3e-07617b1ba50a: About # About
+    f7178b19-5f10-4c09-ad76-8e494350916d: 'Page Content' # Page Content
+plugins:
+  cheat-sheet:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  express-forms:
+    edition: lite
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      duplicatePreventionEnabled: true
+      emailNotificationsDirectoryPath: /home/jay/lampstack/apache2/htdocs/templates/forms/_notifications
+      enhancedUI: true
+      honeypotBehaviour: simulate_success
+      honeypotEnabled: ''
+      honeypotInputName: form_handler
+      name: null
+      recaptchaEnabled: '1'
+      recaptchaLoadScript: '1'
+      recaptchaSecretKey: null
+      recaptchaSiteKey: null
+      recaptchaTheme: light
+      showErrorLogBanner: true
+  help-links:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  youtubeliveembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.9
+    settings:
+      connectionToken: ''
+      isLive: ''
+      youtubeChannelId: UCTIKg0f0UuTN9jxxuL-EnNA
+system:
+  edition: solo
+  live: true
+  name: JayGreentree
+  schemaVersion: 3.7.33
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
