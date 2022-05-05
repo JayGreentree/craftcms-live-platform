@@ -1,13 +1,13 @@
 # craftcms-live-platform
 
-
+## Preview coming soon
 ##################################################
 
 
-# Plugin credits
+# Required Plugins & credits
 
-###  youtube live embed
-###  Sprig
-###  Redactor
-###  Express Forms
-###  CKEditor
+###  youtube live embed by nystudio107
+###  Sprig by PutYourLightsOn
+###  Redactor by Pixel & Tonic
+###  Express Forms by Solspace
+###  CKEditor by Pixel & Tonic
