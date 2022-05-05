@@ -1,5 +1,5 @@
-config-deltas
 composer-backups
 config-backups
+config-deltas
 logs
 runtime
