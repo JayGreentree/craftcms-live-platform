@@ -1,5 +1,5 @@
 # craftcms-live-platform
-Loosely inspired by @craftquest
+Loosely inspired by @craftquest/
 
 ## Preview coming soon
 ##################################################
