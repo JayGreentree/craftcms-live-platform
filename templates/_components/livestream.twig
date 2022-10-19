@@ -1,6 +1,7 @@
 
 {% set live = craft.youtubelive.isLive()  %}
-<div sprig s-trigger="every 30s" class="container">
+  
+<div sprig s-trigger="every 30s" class="container {{ live ? '' : 'hide' }}">
   <div class="row">
     <div class="col">
       {{ craft.youtubelive.embedStream() }}
@@ -31,8 +32,8 @@
 </div>
     </div>
   </div>
-{% else %}
 
+<div sprig s-trigger="every 30s" class="container {{ live ? 'hide' : '' }}">
   <div class="row">
     <div class="col">
       Not currently streaming. Please check back later.
@@ -42,4 +43,4 @@
     </div>
   </div>
 
-  {% endif %}
+  

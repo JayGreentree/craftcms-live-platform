@@ -1,4 +1,4 @@
-dateModified: 1651732415
+dateModified: 1666147865
 email:
   fromEmail: jay@jaygreentree.xyz
   fromName: JayGreentree
@@ -27,7 +27,7 @@ plugins:
   express-forms:
     edition: lite
     enabled: true
-    schemaVersion: 1.0.1
+    schemaVersion: 1.0.2
     settings:
       duplicatePreventionEnabled: true
       emailNotificationsDirectoryPath: /home/jay/lampstack/apache2/htdocs/templates/forms/_notifications

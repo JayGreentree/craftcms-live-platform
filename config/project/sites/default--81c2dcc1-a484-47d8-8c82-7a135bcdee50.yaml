@@ -1,7 +1,7 @@
-baseUrl: $PRIMARY_SITE_URL
+baseUrl: null
 enabled: true
 handle: default
-hasUrls: true
+hasUrls: false
 language: en-US
 name: JayGreentree
 primary: true
