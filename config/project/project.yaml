@@ -1,4 +1,4 @@
-dateModified: 1666147865
+dateModified: 1666287716
 email:
   fromEmail: jay@jaygreentree.xyz
   fromName: JayGreentree
@@ -12,6 +12,8 @@ meta:
     0192e6bf-be1f-4228-a001-dd281e15d961: Homepage # Homepage
     525082af-2b54-45bd-8bb6-20b24c7547ed: JayGreentree # JayGreentree
     65350575-825b-4f3e-83cb-d1a5b48ead78: About # About
+    a88d0b37-76d5-44a9-ad55-6c389b7a69bc: Images # Images
+    abd9a13b-60f1-438b-9c48-df3a23b0fcd8: Images # Images
     e4ea9285-9cb3-43dd-9896-1f1cd87e673f: live # live
     ece1925c-dfe5-4606-be3e-07617b1ba50a: About # About
     f7178b19-5f10-4c09-ad76-8e494350916d: 'Page Content' # Page Content
@@ -24,6 +26,8 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      buildUrl: '@web/assets/ckeditor/build/ckeditor.js'
   express-forms:
     edition: lite
     enabled: true

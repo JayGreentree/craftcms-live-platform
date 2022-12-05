@@ -27,8 +27,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            heading: null
-            type: craft\fieldlayoutelements\Heading
+            fieldUid: abd9a13b-60f1-438b-9c48-df3a23b0fcd8 # Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
             fieldUid: f7178b19-5f10-4c09-ad76-8e494350916d # Page Content
             instructions: null
@@ -41,7 +47,7 @@ fieldLayouts:
         name: Homepage
         sortOrder: 1
 handle: homepage
-hasTitleField: false
+hasTitleField: true
 name: Homepage
 section: 7b35c3bb-a8d0-4a44-86a5-e93a321a5dbd # Homepage
 sortOrder: 1
