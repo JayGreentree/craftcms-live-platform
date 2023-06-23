@@ -21,7 +21,7 @@
                 "shasum": ""
             },
             "require": {
-                "craftcms/cms": "^3.0.0-RC1"
+                "craftcms/cms": "^4.4.12"
             },
             "type": "craft-plugin",
             "extra": {
