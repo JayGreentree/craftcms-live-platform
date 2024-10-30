@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
-handle: homepage
-name: Homepage
+handle: live
+name: Live
 propagationMethod: all
 siteSettings:
-  81c2dcc1-a484-47d8-8c82-7a135bcdee50: # JayGreentree
+  5ac11c1a-4c54-4be3-b52e-a2b6ca22829b: # Church Online
     enabledByDefault: true
     hasUrls: true
     template: index.twig

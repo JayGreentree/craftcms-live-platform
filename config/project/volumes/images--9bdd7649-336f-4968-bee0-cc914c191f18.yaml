@@ -1,5 +1,5 @@
 fieldLayouts:
-  435859b4-bf79-46e6-893d-8fd4c53d773c:
+  e095f873-f290-4a2e-bf25-e2f9c6a8a8ea:
     tabs:
       -
         elements:
@@ -32,9 +32,9 @@ handle: images
 hasUrls: true
 name: Images
 settings:
-  path: '@webroot/assets/images/'
+  path: '@webroot/images/'
 sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: null
 type: craft\volumes\Local
-url: '@web/assets/images/'
+url: /images/

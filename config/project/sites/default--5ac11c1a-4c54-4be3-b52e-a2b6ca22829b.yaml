@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Church Online'
+primary: true
+siteGroup: 696178da-83aa-45ce-9014-21667762d6b8 # Church Online
+sortOrder: 1

@@ -1,59 +1,34 @@
-dateModified: 1666287716
+dateModified: 1730267638
 email:
-  fromEmail: jay@jaygreentree.xyz
-  fromName: JayGreentree
+  fromEmail: jgreentreevin@gmail.com
+  fromName: 'Church Online'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    6bb4ea66-bdde-4e67-a67e-09d66d1dd1b1: Homepage # Homepage
-    6e620cd6-2380-447f-8761-8d7c86a71a56: Common # Common
-    7b35c3bb-a8d0-4a44-86a5-e93a321a5dbd: Homepage # Homepage
-    81c2dcc1-a484-47d8-8c82-7a135bcdee50: JayGreentree # JayGreentree
-    0192e6bf-be1f-4228-a001-dd281e15d961: Homepage # Homepage
-    525082af-2b54-45bd-8bb6-20b24c7547ed: JayGreentree # JayGreentree
-    65350575-825b-4f3e-83cb-d1a5b48ead78: About # About
-    a88d0b37-76d5-44a9-ad55-6c389b7a69bc: Images # Images
-    abd9a13b-60f1-438b-9c48-df3a23b0fcd8: Images # Images
-    e4ea9285-9cb3-43dd-9896-1f1cd87e673f: live # live
-    ece1925c-dfe5-4606-be3e-07617b1ba50a: About # About
-    f7178b19-5f10-4c09-ad76-8e494350916d: 'Page Content' # Page Content
+    5ac11c1a-4c54-4be3-b52e-a2b6ca22829b: 'Church Online' # Church Online
+    9bdd7649-336f-4968-bee0-cc914c191f18: Images # Images
+    44b77bba-4e86-470a-b7a7-5e11e6d2c210: Common # Common
+    696178da-83aa-45ce-9014-21667762d6b8: 'Church Online' # Church Online
+    afe859ab-a824-4cb6-b0d3-f5ac4875f6dc: Live # Live
+    e38b3013-2388-4553-8e5e-bdb2c7049481: Images # Images
+    f27f97d3-7d16-47cd-8f60-2e2115f89def: Live # Live
+    ff93bb62-24e0-4fe9-8f03-0c63b76fdffd: 'Page Content' # Page Content
 plugins:
   cheat-sheet:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      cheatSheetRoute: cheatsheet
+      cheatSheetWhitespace: \t
   ckeditor:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-    settings:
-      buildUrl: '@web/assets/ckeditor/build/ckeditor.js'
-  express-forms:
-    edition: lite
-    enabled: true
-    schemaVersion: 1.0.2
-    settings:
-      duplicatePreventionEnabled: true
-      emailNotificationsDirectoryPath: /home/jay/lampstack/apache2/htdocs/templates/forms/_notifications
-      enhancedUI: true
-      honeypotBehaviour: simulate_success
-      honeypotEnabled: ''
-      honeypotInputName: form_handler
-      name: null
-      recaptchaEnabled: '1'
-      recaptchaLoadScript: '1'
-      recaptchaSecretKey: null
-      recaptchaSiteKey: null
-      recaptchaTheme: light
-      showErrorLogBanner: true
   help-links:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  redactor:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.3.0
   sprig:
     edition: standard
     enabled: true
@@ -65,16 +40,15 @@ plugins:
   youtubeliveembed:
     edition: standard
     enabled: true
-    schemaVersion: 1.0.9
+    schemaVersion: 1.0.10
     settings:
-      connectionToken: ''
-      isLive: ''
+      isLive: '1'
       youtubeChannelId: UCTIKg0f0UuTN9jxxuL-EnNA
 system:
-  edition: solo
+  edition: pro
   live: true
-  name: JayGreentree
-  schemaVersion: 3.7.33
+  name: 'Church Online'
+  schemaVersion: 3.8.0.1
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

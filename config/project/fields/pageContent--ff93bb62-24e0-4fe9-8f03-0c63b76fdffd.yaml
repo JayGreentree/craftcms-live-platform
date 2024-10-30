@@ -1,10 +1,10 @@
-columnSuffix: hszdnrpg
+columnSuffix: qmxkcsnd
 contentColumnType: text
-fieldGroup: 6e620cd6-2380-447f-8761-8d7c86a71a56 # Common
+fieldGroup: 44b77bba-4e86-470a-b7a7-5e11e6d2c210 # Common
 handle: pageContent
 instructions: ''
 name: 'Page Content'
-searchable: true
+searchable: false
 settings:
   availableTransforms: '*'
   availableVolumes: '*'
